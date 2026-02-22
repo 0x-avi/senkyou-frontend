@@ -2,7 +2,7 @@
 
 import { usePrivy } from '@privy-io/react-auth'
 import { useCounterContract } from '@/hooks/useMyContract'
-import { Header } from '@/app/components/Header'
+import { Header } from './components/Header'
 import { toast } from 'react-toastify'
 import { Search, ChevronDown, ChevronUp, Lock, Play, Unlock, Star, Clock, BookOpen } from 'lucide-react'
 import { useState, useRef, useEffect } from 'react'
